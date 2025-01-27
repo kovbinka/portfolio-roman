@@ -1,55 +1,136 @@
-# Project Name
+# Portfolio
 
 <!-- describe your project -->
 
----
+This project is for everyone who wants to know more about me and my skills, to
+hire me for a job or just to chat.
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new rep
+- Create a project issues
+- Clone the repo to a local machine
+- Create branches for each issue
 
----
+## Landing page
 
-<!-- copy this section once for each must-have user story -->
+### Navigation bar
 
-## user story
+This feature develops on a branch `nav-bar`.
 
-<!-- each issue created from this section will have the `for: user story` label -->
+#### HTML
 
-> "as a ... i can ... so that ..."
+- Add `div` class="nav-bar"
+- Add `div` for logo on the left
+- Add six `div` for navigation links
 
-<!-- write any extra notes or description -->
+#### CSS
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- Add style to nav-bar
+- Add style to logo
+- Add style to navigation links
 
-### Logic: user story
+### Introduction content
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+This feature develops on a branch `introduction-content`.
 
-### Interface: user story
+#### HTML
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add `div` to create a main container
+- Add `div` to add small header
+- Add `div` to add large header
+- Add `p` to add text
+- Add `img`
 
-### Interaction: user story
+#### CSS
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add style to main container
+- Add style to headers
+- Add style to img
 
-### Documentation: user story
+### About me
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+This feature develops on a branch `about-me`.
+
+#### HTML
+
+- Add `div` to create container
+- Add `div` or `h1` to add heading
+- Add `p` to add text
+- Add `img`
+
+#### CSS
+
+- Add style to main container
+- Add style to header
+- Add style to img
+
+### Skills
+
+This feature develops on a branch `skills`.
+
+#### HTML
+
+- Add `div` to create a container for Skills introduction
+- Add `div` and `img` for HTML skills introduction
+- Add `div` and `img` for CSS skills introduction
+- Add `div` and `img` for JavaScript skills introduction
+- Add `div` and `img` for React skills introduction
+
+#### CSS
+
+- Add style to main container
+- Add style to all `div` skills containers
+- Add style to `img`
+
+### Developer Projects
+
+This feature develops on a branch `my-projects`.
+
+#### HTML
+
+- Add `div` to create a container for Projects introduction
+- Add three `div` for three Projects
+- Add projects-links to `div`
+- Add `img` to `div` for Projects
+
+#### CSS
+
+- Add style to main container
+- Add style to all `div` Projects containers
+- Add style to `img`
+
+### Contact Form
+
+This feature develops on a branch `contact-me`.
+
+#### HTML
+
+- Add `div` to create a container for Contact Form
+- Add three `div`
+- Add three `label` and `input` for Name, Surname and Email
+- Add `checkbox` for Privacy political
+- Add `button` to send user's contact info to developer
+
+#### CSS
+
+- Add style to main container
+- Add style to all `div` containers
+- Add style to all `label` and `input` containers
+- Add style to `checkbox`
+- Add style to `button`
+
+### Footer
+
+This feature develop on a branch `footer`
+
+#### HTML
+
+- Add `div` for the footer section
+- Add `div` to create three grid
+- Add `a` to share the developer links
+
+#### CSS
+
+- Add style to footer container
+- Add style to grids
