@@ -1,10 +1,11 @@
-# Name of project
+# My Portfolio
 
-> A longer description
+> This project aims to create a personal portfolio website to showcase my
+> skills, work experience, projects, and achievements.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#name-of-project)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +23,8 @@
 
 ## General info
 
-> A short description
+> The main goal of my portfolio is to make a positive impression on potential
+> employers or clients and secure new professional opportunities.
 
 ## Screenshots
 
@@ -32,9 +34,8 @@
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
@@ -47,7 +48,7 @@
 console.log("Hello World");
 ```
 
-## Features
+<!-- ## Features
 
 List of features ready and Todos for future development
 
@@ -58,7 +59,7 @@ List of features ready and Todos for future development
 To-do list:
 
 -
--
+- -->
 
 ## Status
 
@@ -66,11 +67,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Roman Kovbinka
 
 ## Contact
 
-By [Name]
+By [Roman](https://github.com/kovbinka)
 
 ## Instructions for use
 
