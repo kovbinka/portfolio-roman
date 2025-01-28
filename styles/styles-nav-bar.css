@@ -1,29 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .header {
-  height: 60px;
+  height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
   top: 20px;
-  left: 100px;
-  right: 100px;
+  left: 120px;
+  right: 120px;
   z-index: 100;
-  background-color: rgb(27, 14, 14);
-  border-radius: 40px;
+  background-color: rgb(27 14 14);
+  filter: sepia(1);
+  border-radius: 90px;
   border-left-width: 1px;
   border-left-style: solid;
-  border-left-color: rgb(50, 1, 52);
+  border-left-color: rgb(50 1 52);
   border-right-width: 1px;
   border-right-style: solid;
-  border-right-color: rgb(78, 22, 209);
+  border-right-color: rgb(78 22 209);
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: rgb(78, 22, 209);
+  border-top-color: rgb(78 22 209);
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(50, 1, 52);
+  border-bottom-color: rgb(50 1 52);
 }
 
 .left-section {
@@ -37,7 +38,7 @@
 }
 
 .nav-bar-fonts {
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .navbar-logos {
