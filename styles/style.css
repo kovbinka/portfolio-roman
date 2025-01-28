@@ -29,7 +29,7 @@ section.hero-section {
   color: #fff;
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 640px;
   margin-top: 0;
   padding: 100px 120px 50px 200px;
 }
@@ -88,6 +88,7 @@ ul.social-icons {
 .hero-buttons button > a {
   text-decoration: none;
   color: #fff;
+  transition: 1s;
 }
 
 /* buttons */
@@ -123,4 +124,56 @@ ul.social-icons {
   background-color: var(--primary);
   color: #fff;
   transition: all 0.3s ease 0s;
+}
+
+/* About Section */
+section.about-section {
+  background-color: var(--dark-secondary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.about-img img {
+  width: 250px;
+  height: 250px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  box-shadow: 3px 5px 30px #613026;
+  object-fit: cover;
+}
+
+.about-content {
+  margin-left: 100px;
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 33px;
+}
+
+.about-content h2::after {
+  content: "👨‍💻";
+}
+
+.about-content h2 > span {
+  color: var(--primary);
+}
+
+.about-content p {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+.about-content button {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.about-content button > a {
+  text-decoration: none;
+  color: var(--dark-primary);
 }
