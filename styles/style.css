@@ -159,6 +159,26 @@ section.about-section {
   content: "👨‍💻";
 }
 
+/* to skills section */
+
+.progress-bar span {
+  height: 10px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgb(250 113 283) 0%,
+    rgb(255 142 134) 60%
+  );
+  border-radius: 20px;
+  -webkit-background: linear-gradient(
+    135deg,
+    rgb(250 113 283) 0%,
+    rgb(255 142 134) 60%
+  );
+}
+
+/* to skills section */
+
 .about-content h2 > span {
   color: var(--primary);
 }
@@ -176,4 +196,124 @@ section.about-section {
 .about-content button > a {
   text-decoration: none;
   color: var(--dark-primary);
+}
+
+/* Skills Section */
+.new-block {
+  display: block;
+  margin-left: 100px;
+}
+
+section.skills-design {
+  background-color: var(--dark-primary);
+  color: #fff;
+  display: block;
+  align-items: center;
+  height: 390px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* section.skills-section {
+  background-color: var(--dark-secondary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 0;
+} */
+
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+  gap: 20px 20px;
+  align-items: center;
+}
+
+.main-title {
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.skills {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.no-bullet-list {
+  list-style-type: none;
+}
+
+.no-padding-list-item {
+  padding-left: 0;
+}
+
+.progress-bar {
+  background-color: #353b48;
+  display: block;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.html {
+  width: 30%;
+  animation: html 3s;
+}
+
+.css {
+  width: 30%;
+  animation: css 3s;
+}
+
+.javascript {
+  width: 1%;
+  animation: javascript 3s;
+}
+
+.php {
+  width: 1%;
+  animation: php 3s;
+}
+
+.comm-adapt {
+  width: 80%;
+  animation: comm-adapt 3s;
+}
+
+.team-player {
+  width: 85%;
+  animation: team-player 3s;
+}
+
+.problem-solving {
+  width: 75%;
+  animation: problem-solving 3s;
+}
+
+.open-minded {
+  width: 80%;
+  animation: open-minded 3s;
 }
