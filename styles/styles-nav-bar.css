@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --primary: #f55;
+  --primary-hover: #e43232;
+  --dark-secondary: #1e1b1b;
+  --text-color: #c4c4c4;
+}
+
 .header {
   height: 85px;
   display: flex;
@@ -10,7 +17,7 @@
   left: 120px;
   right: 120px;
   z-index: 100;
-  background-color: rgb(27 14 14);
+  background-color: var(--dark-primary);
   filter: sepia(1);
   border-radius: 90px;
   border-left-width: 1px;
@@ -33,7 +40,7 @@
 }
 
 .main-logo {
-  height: 30px;
+  height: 32px;
   margin-left: 100px;
 }
 
@@ -42,8 +49,13 @@
 }
 
 .navbar-logos {
-  width: 40px;
+  box-sizing: border-box;
+  width: 55px;
   fill: aliceblue;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
 .middle-section {
@@ -53,4 +65,17 @@
   align-items: center;
   justify-content: space-between;
   color: aliceblue;
+}
+
+.navbar-logos:hover {
+  background-color: #e43232;
+  border: none;
+  border-radius: 19px;
+}
+
+@media only screen and (width < 768px) {
+  #section-nav {
+    display: none;
+    visibility: hidden;
+  }
 }
