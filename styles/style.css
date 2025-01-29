@@ -441,6 +441,33 @@ textarea:focus {
   border: 1px solid var(--primary);
 }
 
+/* Video */
+
+.contact-video-container {
+  box-sizing: border-box;
+  display: block;
+}
+
+.contact-video {
+  position: absolute;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-secondary);
+  color: gray;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 13px;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
 /* Rules for phone */
 @media only screen and (width < 768px) {
   .hero-img img {
