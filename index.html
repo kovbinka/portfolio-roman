@@ -31,6 +31,13 @@
 
     <!-- Theme 3 -->
     <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -66,7 +73,7 @@
     <main>
       <!-- Intro Section -->
       <section class="hero-section" id="home">
-        <div>
+        <div class="hero-section-intro-container">
           <div>
             <h4 title="Hello, How are you?">👋 Hi, There!</h4>
             <h2 class="hero-section-title">I'm <span>Roman</span></h2>
@@ -106,24 +113,9 @@
             </li>
           </ul>
 
-          <form
-            style="display: inline"
-            action="#contact-full-name"
-            method="get"
-          >
-            <button type="submit" class="btn btn-primary">Hire me 📧</button>
-          </form>
-
-          <!-- <div class="hero-buttons">
-          <a href="mailto:roman10kovbinka@gmail.com"><button type="submit" class="btn btn-primary"
-              title="Got a cool project? Lets work together!">
-              Hire me
-            </button>
-          </a> -->
-          <!-- <button class="btn btn-dark-outlined">
-            <a href="./assets/my resume/my resume.pdf" download>Download CV</a>
-          </button> -->
-          <!-- </div> -->
+          <div class="button-hire-me">
+            <a href="#contact-full-name" class="btn btn-primary">Hire me 📧</a>
+          </div>
         </div>
 
         <div class="hero-img">
@@ -172,10 +164,10 @@
       <!-- skills -->
       <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
       <section class="skills-design" id="skills">
-        <h3 class="main-title center padding">Skills</h3>
+        <h3 class="main-title center padding">SKILLS</h3>
         <section class="wrapper">
           <section class="column">
-            <p class="padding-bottom">Technical skills</p>
+            <p class="padding-bottom">🛠️Technical Skills🛠️</p>
             <section class="skills">
               <ul class="no-bullet-list no-padding-list-item">
                 <li>
@@ -200,7 +192,7 @@
             </section>
           </section>
           <section class="column">
-            <p class="padding-bottom">Professional skills</p>
+            <p class="padding-bottom">💡Professional Skills💡</p>
             <section class="skills">
               <ul class="no-bullet-list no-padding-list-item">
                 <li>
@@ -210,7 +202,7 @@
                   ></span>
                 </li>
                 <li>
-                  <p>team player, adaptability</p>
+                  <p>team playing</p>
                   <span class="progress-bar"
                     ><span class="team-player"></span
                   ></span>
@@ -244,22 +236,24 @@
             <div class="projects-card-box-desc">
               <h4>All about trees</h4>
               <p>
-                This is a simple website called `All About Trees`. It contains
-                some interesting info about trees for people interested in
-                plants, trees, gardening or science.
-                <strong>[projected by group 4]</strong>
+                This simple website contain some interesting info about trees
+                for people interested in plants, trees, gardening or science.
+                <br />
+                <strong class="all-about-trees">[projected by group 4]</strong>
               </p>
             </div>
             <div class="projects-card-box-buttons btn btn-dark-outlined">
-              <form
-                style="display: inline"
-                action="https://bf-frontend-class-2025.github.io/group-4-all-about-trees/"
-                method="get"
-              >
-                <button type="submit" class="btn btn-primary btn-dark-outlined">
-                  View <i class="fa-solid fa-external-link"></i>
-                </button>
-              </form>
+              <a
+                class="btn btn-primary btn-dark-outlined"
+                href="https://bf-frontend-class-2025.github.io/group-4-all-about-trees/"
+                >View <i class="fa-solid fa-external-link"></i
+              ></a>
+              <!-- <form style="display: inline" action="https://bf-frontend-class-2025.github.io/group-4-all-about-trees/"
+              method="get">
+              <button type="submit" class="btn btn-primary btn-dark-outlined">
+                View <i class="fa-solid fa-external-link"></i>
+              </button>
+            </form> -->
             </div>
           </div>
 
@@ -273,19 +267,22 @@
                 Loruki is a platform for building applications of all types with
                 modern architecture and scaling.
                 <br />
-                <strong>[projected by group 4]</strong>
+                <br />
+                <strong class="all-about-trees">[projected by group 4]</strong>
               </p>
             </div>
             <div class="projects-card-box-buttons btn btn-dark-outlined">
-              <form
-                style="display: inline"
-                action="https://bf-frontend-class-2025.github.io/group-4-loruki/"
-                method="get"
-              >
-                <button type="submit" class="btn btn-primary btn-dark-outlined">
-                  View <i class="fa-solid fa-external-link"></i>
-                </button>
-              </form>
+              <a
+                class="btn btn-primary btn-dark-outlined"
+                href="https://bf-frontend-class-2025.github.io/group-4-loruki/"
+                >View <i class="fa-solid fa-external-link"></i
+              ></a>
+              <!-- <form style="display: inline" action="https://bf-frontend-class-2025.github.io/group-4-loruki/"
+              method="get">
+              <button type="submit" class="btn btn-primary btn-dark-outlined">
+                View <i class="fa-solid fa-external-link"></i>
+              </button>
+            </form> -->
             </div>
           </div>
 
@@ -298,19 +295,21 @@
               <p>
                 This site is about training people with a refugee background to
                 become web developers and software testers through a free seven
-                month program. <strong>[projected by group 4]</strong>
+                month program.
+                <strong class="all-about-trees">[projected by group 4]</strong>
               </p>
             </div>
             <div class="projects-card-box-buttons btn btn-dark-outlined">
-              <form
-                style="display: inline"
-                action="https://bf-frontend-class-2025.github.io/group-4-hyf/"
-                method="get"
-              >
-                <button type="submit" class="btn btn-primary btn-dark-outlined">
-                  View <i class="fa-solid fa-external-link"></i>
-                </button>
-              </form>
+              <a
+                class="btn btn-primary btn-dark-outlined"
+                href="https://bf-frontend-class-2025.github.io/group-4-hyf/"
+                >View <i class="fa-solid fa-external-link"></i
+              ></a>
+              <!-- <form style="display: inline" action="https://bf-frontend-class-2025.github.io/group-4-hyf/" method="get">
+              <button type="submit" class="btn btn-primary btn-dark-outlined">
+                View <i class="fa-solid fa-external-link"></i>
+              </button>
+            </form> -->
             </div>
           </div>
         </div>
@@ -319,7 +318,7 @@
       <section class="contact-section" id="contact">
         <!-- <video class="contact-video" autoplay="autoplay" loop="loop" muted="muted" plays-inline width="640" height="360"
         src="public/galaxy.mp4"></video> -->
-        <h2>Contact <span>ME!</span></h2>
+        <h2>Contact <span class="contact-me-hover">ME!</span></h2>
         <form action="https://formspree.io/f/mnnjdkrv" method="POST">
           <div>
             <input

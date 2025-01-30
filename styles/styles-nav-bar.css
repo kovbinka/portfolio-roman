@@ -11,7 +11,7 @@
   height: 85px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   position: fixed;
   top: 20px;
   left: 120px;
@@ -32,6 +32,11 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(50 1 52);
+  transition: 0.4s;
+}
+
+.header:hover {
+  background-color: rgba(255 0 0 0.9);
 }
 
 .left-section {
@@ -40,8 +45,7 @@
 }
 
 .main-logo {
-  height: 32px;
-  margin-left: 100px;
+  height: 32px; /* margin-left: 100px; */
 }
 
 .nav-bar-fonts {
@@ -59,11 +63,10 @@
 }
 
 .middle-section {
-  width: 350px;
-  margin-right: 100px;
+  width: 350px; /* margin-right: 100px; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: aliceblue;
 }
 
@@ -73,7 +76,7 @@
   border-radius: 19px;
 }
 
-@media only screen and (width < 768px) {
+@media only screen and (width < 712px) {
   #section-nav {
     display: none;
     visibility: hidden;
