@@ -28,7 +28,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/portfolio-screen.png)
 
 ## Technologies
 
@@ -40,12 +40,20 @@
 ## Setup
 
 - `npm run start`
+- `npm install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<div>
+  <h4 title="Hello, How are you?">👋 Hi, There!</h4>
+  <h2 class="hero-section-title">I'm <span>Roman</span></h2>
+  <p class="hero-section-desc">
+    🔴 I am a beginner Web Developer in Frontend Technologies, such as HTML and
+    CSS, creating interactive web experiences. I'm passionate about blending
+    design aesthetics with functionality🚀
+  </p>
+</div>
 ```
 
 <!-- ## Features
@@ -63,7 +71,7 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
@@ -71,7 +79,7 @@ Project by Roman Kovbinka
 
 ## Contact
 
-By [Roman](https://github.com/kovbinka)
+[Roman](https://github.com/kovbinka)
 
 ## Instructions for use
 
@@ -80,9 +88,8 @@ By [Roman](https://github.com/kovbinka)
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
+1. `git clone github.com/HackYourFutureBelgium/template-html-css.git`
+2. `npm install`
 
 ## Code Quality Checks
 
