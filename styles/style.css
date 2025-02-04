@@ -543,6 +543,45 @@ footer {
   }
 }
 
+@media only screen and (width < 828px) {
+  section.hero-section {
+    height: 486px;
+  }
+
+  .hero-section-intro-container {
+    width: 90%;
+    transition: 0.2s;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .about-content {
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .about-section {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .projects-section {
+    display: block;
+  }
+
+  .projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-card-box {
+    min-width: 100px;
+    max-width: 100%;
+  }
+}
+
 @media only screen and (width < 768px) {
   section.hero-section {
     height: 486px;
